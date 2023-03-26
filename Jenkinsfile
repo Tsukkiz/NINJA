@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 echo '[INFO] Cloning Repository'
-                sh 'git clone --depth 1 --single-branch https://github.com/Tsukkiz/NINJA.git'
+                //sh 'git clone --depth 1 --single-branch https://github.com/Tsukkiz/NINJA.git'
                 //sh 'ls wondercms'
             }
         }
